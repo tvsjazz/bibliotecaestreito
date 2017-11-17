@@ -17,6 +17,7 @@ public class Exemplar {
 	
 	private Integer idLivro;
 	
+	@GeneratedValue(generator="uuid")
 	@Column(unique=true)
 	private String codigoLivro; //md5
 	
